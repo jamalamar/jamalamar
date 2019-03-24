@@ -29,6 +29,6 @@ app.use(express.static(__dirname + '/Scripts'));
 
 
 app.use('/', router);
-app.listen(process.env.port || 3000);
+app.listen(process.env.port);
 
-console.log('Running at Port 3000');
+console.log('Running...');
