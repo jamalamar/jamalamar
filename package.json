@@ -3,6 +3,9 @@
     "name": "startbootstrap-stylish-portfolio",
     "version": "5.0.2",
     "description": "A stylish portfolio HTML template built with Bootstrap",
+    "scripts": {
+        "start": "node app.js"
+    },
     "keywords": [
         "css",
         "sass",
